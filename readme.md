@@ -45,7 +45,7 @@ Otherwise run
 $ npx create-react-app testing-lesson
 ```
 
-We can run `$ yarn test` right now and see what happens.
+We can run `$ npm run test` right now and see what happens.
 
 ![](./images/initial-tests.png)
 
