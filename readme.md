@@ -56,7 +56,7 @@ You can see in `App.test.js` that we only have one test right now: `renders with
 Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
 
 ```bash
-$ yarn add enzyme enzyme-adapter-react-16 react-test-renderer
+$ npm install enzyme enzyme-adapter-react-16 react-test-renderer
 ```
 
 Create a file `setupTests.js`. Create-react-app reads this file to see if there is any additional setup for the tests. In that file, add the following:
